@@ -1,7 +1,8 @@
 :root {
   --preto: #000;
   --branco: #fff;
-  --cor-principal: #31363F;
+  --cinza: #C0C0C0;
+  --cor-principal: #0C0C0C;
 }
 
 * {

@@ -18,7 +18,7 @@ const Header = () => {
                         <LinkStyle to='/Contato'>
                             <li>CONTATO</li>
                         </LinkStyle>
-                        <li></li>
+                        <li>SOBRE</li>
                     </MenuList>
                 </HeaderNavigation>
             </HeaderStyle>

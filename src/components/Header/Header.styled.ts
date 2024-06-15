@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header `
-    
+    padding-bottom: 5%;
 `
 
 export const HeaderNavigation = styled.nav `
