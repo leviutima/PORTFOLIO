@@ -1,15 +1,23 @@
-import { HeaderNavigation, HeaderStyle, ImgStyle, MenuList } from "./Header.styled"
+import { HeaderNavigation, HeaderStyle, ImgStyle, LinkStyle, MenuList } from "./Header.styled"
 import imgHeader from '../../assets/leviLogo.png'
+
+
 
 const Header = () => {
     return(
         <>
             <HeaderStyle>
                 <HeaderNavigation>
-                    <ImgStyle src={imgHeader}></ImgStyle>
+                    <LinkStyle to='/'>
+                        <ImgStyle src={imgHeader}></ImgStyle>
+                    </LinkStyle>
                     <MenuList>
-                        <li>PROJETOS</li>
-                        <li>CONTATO</li>
+                        <LinkStyle to='/Projetos'>
+                            <li>PROJETOS</li> 
+                        </LinkStyle>
+                        <LinkStyle to='/Contato'>
+                            <li>CONTATO</li>
+                        </LinkStyle>
                         <li></li>
                     </MenuList>
                 </HeaderNavigation>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header `
@@ -13,6 +14,11 @@ export const HeaderNavigation = styled.nav `
 
 export const ImgStyle = styled.img `
     width: 8vw;
+`
+
+export const LinkStyle = styled(Link) `
+    text-decoration: none;
+    color: var(--branco);
 `
 
 export const MenuList = styled.ul `
