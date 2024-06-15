@@ -23,7 +23,7 @@ export const LinkStyle = styled(Link) `
 
 export const MenuList = styled.ul `
     display: flex;
-    gap: 100px;
+    gap: 80px;
 
     font-size: 18px;
     list-style: none;

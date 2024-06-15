@@ -1,8 +1,6 @@
 import { HeaderNavigation, HeaderStyle, ImgStyle, LinkStyle, MenuList } from "./Header.styled"
 import imgHeader from '../../assets/leviLogo.png'
 
-
-
 const Header = () => {
     return(
         <>
