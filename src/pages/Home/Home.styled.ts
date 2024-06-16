@@ -25,6 +25,8 @@ export const SectionContainerFirst = styled.section `
 `
 
 export const Title = styled.div `
+    display: grid;
+    gap: 24px;
     font-size: 42px;
 `
 

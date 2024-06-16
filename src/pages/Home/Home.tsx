@@ -3,6 +3,8 @@ import { ContainerImgTechs, ContainerProjetos, MainContainer, SectionContainerFi
 import myMusicList from '../../assets/projetos/projeto 1.png'
 import oceania from '../../assets/projetos/projeto 2.png'
 import salesF from '../../assets/projetos/projeto 3.png'
+import Button from '../../components/Button/Button'
+import github from '../../assets/githubLogo.png'
 
 
 const Home = () => {
@@ -11,9 +13,12 @@ const Home = () => {
         <MainContainer>
             <SectionContainerFirst>
                 <Title>
-                    <h2>HEY! I'm Levi - FRONT-END</h2>
-                    <h2>Developer</h2>
-                    <SpanStyle>Estou aqui para te ajudar a tirar as ideias da mente e divulgar para o mundo !</SpanStyle>
+                    <div>
+                        <h2>HEY! I'm Levi - FRONT-END</h2>
+                        <h2>Developer</h2>
+                        <SpanStyle>Estou aqui para te ajudar a tirar as ideias da mente e divulgar para o mundo !</SpanStyle>
+                    </div>
+                    <Button img={github}>Meu GitHub</Button>
                 </Title>
             </SectionContainerFirst>
             <SectionContainerSecond>

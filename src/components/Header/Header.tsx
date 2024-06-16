@@ -13,10 +13,10 @@ const Header = () => {
                         <LinkStyle to='/Projetos'>
                             <li>PROJETOS</li> 
                         </LinkStyle>
+                        <li>SOBRE</li>
                         <LinkStyle to='/Contato'>
                             <li>CONTATO</li>
                         </LinkStyle>
-                        <li>SOBRE</li>
                     </MenuList>
                 </HeaderNavigation>
             </HeaderStyle>
