@@ -13,7 +13,9 @@ const Header = () => {
                         <LinkStyle to='/Projetos'>
                             <li>PROJETOS</li> 
                         </LinkStyle>
-                        <li>SOBRE</li>
+                        <LinkStyle to='/Sobre'>
+                            <li>SOBRE</li>
+                        </LinkStyle>
                         <LinkStyle to='/Contato'>
                             <li>CONTATO</li>
                         </LinkStyle>

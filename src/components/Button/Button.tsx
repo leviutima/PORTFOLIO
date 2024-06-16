@@ -3,13 +3,14 @@ import { Ancora, ButtonStyle, ImgStyle } from "./Button.styled"
 
 interface PropsButton {
     img?: string,
-    children: React.ReactNode
+    children: React.ReactNode,
+    link:string 
 }
 
-const Button = ({img, children}: PropsButton) => {
+const Button = ({img, children, link}: PropsButton) => {
     return(
         <>
-            <Ancora href="https://github.com/leviutima">
+            <Ancora href={link}>
             <ButtonStyle>
                 <ImgStyle src={img}></ImgStyle>
                 {children}

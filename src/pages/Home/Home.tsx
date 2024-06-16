@@ -18,7 +18,7 @@ const Home = () => {
                         <h2>Developer</h2>
                         <SpanStyle>Estou aqui para te ajudar a tirar as ideias da mente e divulgar para o mundo !</SpanStyle>
                     </div>
-                    <Button img={github}>Meu GitHub</Button>
+                    <Button link="https://github.com/leviutima" img={github}>Meu GitHub</Button>
                 </Title>
             </SectionContainerFirst>
             <SectionContainerSecond>
