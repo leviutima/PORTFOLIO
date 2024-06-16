@@ -1,4 +1,3 @@
-import React from "react";
 import { CardContainer, CardProjetos, ImgCard, TextSection} from "./Card.styled";
 
 interface CardProp {
