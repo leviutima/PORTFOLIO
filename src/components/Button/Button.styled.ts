@@ -14,12 +14,12 @@ export const ButtonStyle = styled.div `
     justify-content: center;
     gap: 8px;
 
-    width: 12vw;
+    width: 11vw;
     height: 6vh;
 
     color: var(--preto);
     background-color: var(--branco);
-    font-size: 24px;
+    font-size: 22px;
     border-radius: 10px;
     cursor: pointer;
 
