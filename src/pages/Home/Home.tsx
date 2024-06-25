@@ -18,7 +18,7 @@ const Home = () => {
                         <h2>Developer</h2>
                         <SpanStyle>Estou aqui para te ajudar a tirar as ideias da mente e divulgar para o mundo !</SpanStyle>
                     </div>
-                    <Button link="https://github.com/leviutima" img={github}>Meu GitHub</Button>
+                    <Button ancora="https://github.com/leviutima" img={github} bgColor='#fff' textColor='#'>Meu GitHub</Button>
                 </Title>
             </SectionContainerFirst>
             <SectionContainerSecond>

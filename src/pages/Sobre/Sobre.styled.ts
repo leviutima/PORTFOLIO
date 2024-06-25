@@ -46,7 +46,10 @@ export const ContainerText = styled.div`
     color: var(--cinza);
   }
 
-  & span {
-    color: var(--branco);
-  }
+
 `;
+
+export const Negrito = styled.span `
+    font-weight: 700;
+    color: var(--branco);
+`

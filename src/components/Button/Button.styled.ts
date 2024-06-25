@@ -1,14 +1,28 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
+
+interface PropsButton {
+    $bgColor?: string;
+    $borderColor?: string;
+    $textColor?: string;
+    $hoverColor?: string
+}
 
 export const Ancora = styled.a`
     text-decoration: none;
-    color: var(--branco);
     & :hover {
         background-color: #6962AD;
     }
 `
 
-export const ButtonStyle = styled.div `
+export const LinkStyle = styled(Link)`
+    text-decoration: none;
+    & :hover {
+        background-color: #6962AD;
+    }
+`
+
+export const ButtonStyle = styled.div <PropsButton>`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,6 +37,9 @@ export const ButtonStyle = styled.div `
     border-radius: 10px;
     cursor: pointer;
 
+    background-color: ${(props) => props.$bgColor || 'transparent'};
+    color: ${(props) => props.$textColor};
+    border: 1px solid ${(props) => props.$borderColor};
 
 `
 

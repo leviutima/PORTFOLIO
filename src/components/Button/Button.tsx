@@ -1,21 +1,37 @@
 import React from "react"
-import { Ancora, ButtonStyle, ImgStyle } from "./Button.styled"
+import { LinkStyle, ButtonStyle, ImgStyle, Ancora } from "./Button.styled"
 
 interface PropsButton {
+    bgColor?: string;
+    borderColor?: string;
+    textColor?: string;
     img?: string,
     children: React.ReactNode,
-    link:string 
+    link?:string;
+    path?: string;
+    ancora?: string;
+    type?: "button" | "submit" | "reset"; 
 }
 
-const Button = ({img, children, link}: PropsButton) => {
+const Button: React.FC<PropsButton> = ({ img ,bgColor, borderColor, textColor, children, path, type, ancora }) => {
     return(
         <>
-            <Ancora href={link}>
-            <ButtonStyle>
-                <ImgStyle src={img}></ImgStyle>
-                {children}
-            </ButtonStyle>
-            </Ancora>
+            {path ? (
+                <LinkStyle to={path}>
+                    <ButtonStyle $bgColor={bgColor} $borderColor={borderColor} $textColor={textColor}>
+                        <ImgStyle src={img}></ImgStyle>
+                        <span>{children}</span>
+                    </ButtonStyle>
+                </LinkStyle>
+            ) : (
+                <Ancora href={ancora}>
+                <ButtonStyle as="button" type={type} $bgColor={bgColor} $borderColor={borderColor} $textColor={textColor}> 
+                    <ImgStyle src={img}></ImgStyle>
+                    <span>{children}</span>
+                </ButtonStyle>
+                </Ancora>
+            )}
+        
         </>
     )
 }
