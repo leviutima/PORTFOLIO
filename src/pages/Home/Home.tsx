@@ -5,7 +5,7 @@ import oceania from '../../assets/projetos/projeto 2.png'
 import salesF from '../../assets/projetos/projeto 3.png'
 import Button from '../../components/Button/Button'
 import github from '../../assets/githubLogo.png'
-
+import movelt from '../../assets/projetos/movelt.png'
 
 const Home = () => {
     return(
@@ -24,6 +24,7 @@ const Home = () => {
             <SectionContainerSecond>
                 <h3>Últimos projetos realizados</h3>
                 <ContainerProjetos>
+                    <Card img={movelt} titulo='MOVELT'/>
                     <Card img={oceania} titulo='Oceânia'/>
                     <Card img={salesF} titulo='Sales Force'/>
                     <Card img={myMusicList} titulo='My List Music'/>

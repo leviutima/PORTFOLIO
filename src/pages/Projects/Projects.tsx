@@ -7,6 +7,7 @@ import linkTree from '../../assets/projetos/linktree.png'
 import cineTag from '../../assets/projetos/CINETAG.png'
 import pomodoro from '../../assets/projetos/pomodoro.png'
 import spaceApp from '../../assets/projetos/spaceApp.png'
+import movelt from '../../assets/projetos/movelt.png'
 
 const Projetos = () => {
     return(
@@ -32,6 +33,7 @@ const Projetos = () => {
                         <Card img={cineTag} titulo='CineTag'/>
                         <Card img={pomodoro} titulo="Pomodoro"/>
                         <Card img={spaceApp} titulo="Space-App"/> 
+                        <Card img={movelt} titulo="MOVELT"/>
                     </ProjetoCard>
                 </SectionProjeto>
             </ProjetoSection>
