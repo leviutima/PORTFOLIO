@@ -41,6 +41,11 @@ export const ButtonStyle = styled.div <PropsButton>`
     color: ${(props) => props.$textColor};
     border: 1px solid ${(props) => props.$borderColor};
 
+
+    @media (max-width: 768px) {
+        
+    }
+
 `
 
 export const ImgStyle = styled.img `

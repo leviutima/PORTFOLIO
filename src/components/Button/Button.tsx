@@ -31,7 +31,6 @@ const Button: React.FC<PropsButton> = ({ img ,bgColor, borderColor, textColor, c
                 </ButtonStyle>
                 </Ancora>
             )}
-        
         </>
     )
 }

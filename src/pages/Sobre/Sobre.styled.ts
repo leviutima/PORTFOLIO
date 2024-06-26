@@ -1,5 +1,11 @@
 import styled, { keyframes } from "styled-components";
 
+export const MainContainer = styled.main `
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+`
+
 // Define a animação de rotação
 const rotateBorder = keyframes`
   0% {
@@ -19,7 +25,7 @@ const rotateBorder = keyframes`
   }
 `;
 
-export const SectionSobre = styled.section`
+export const SectionMain = styled.section`
   display: flex;
   justify-content: space-evenly;
 `;
@@ -52,4 +58,11 @@ export const ContainerText = styled.div`
 export const Negrito = styled.span `
     font-weight: 700;
     color: var(--branco);
+`
+export const SectionContato = styled.section `
+  
+`
+
+export const SectionExercito = styled.section `
+  
 `

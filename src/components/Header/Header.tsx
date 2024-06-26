@@ -16,9 +16,6 @@ const Header = () => {
                         <LinkStyle to='/Sobre'>
                             <li>SOBRE</li>
                         </LinkStyle>
-                        <LinkStyle to='/Contato'>
-                            <li>CONTATO</li>
-                        </LinkStyle>
                     </MenuList>
                 </HeaderNavigation>
             </HeaderStyle>
