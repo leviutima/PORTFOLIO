@@ -1,7 +1,8 @@
 import Levi from '../../assets/profileLevi.png'
-import { ContainerText, ImgProfile, MainContainer, Negrito, SectionContato, SectionMain } from './Sobre.styled'
+import { CardOracao, ContainerText, ImgProfile, MainContainer, Negrito, SectionContato, SectionMain, SectionOracaoIntendente } from './Sobre.styled'
 import linkedin from '../../assets/linkedinLogo.png'
 import Button from '../../components/Button/Button'
+import Aspira from '../../assets/AspiraYuki.jpeg'
 import LeviAspOf from '../../assets/leviOf.jpeg'
 
 const Sobre = () => {
@@ -25,11 +26,40 @@ const Sobre = () => {
             <SectionMain>
                 <ContainerText>
                     <h2>Aspirante Oficial</h2>
-                    <p>Fui declarado Aspirante Oficial da reserva </p>
+                    <p>Fui declarado Aspirante Oficial de Intendência pelo Centro de Preparação
+                        de Oficiais da Reserva de São Paulo em dezembro de 2023. A jornada no militarismo
+                        mudou a minha vida, me ensinou muitas coisas, levo como a mais importante a disciplina consciente, 
+                        que se baseia em fazer o certo mesmo quando não a ninguém olhando.
+                    </p>
+                    <p>Nessa minha jornada escolhi o curso de <Negrito>INTENDÊNCIA</Negrito>, a área logística do exército 
+                    brasileiro. Lá me foi ensinado a gerir recursos com destreza, a fazer o pouco se tornar muito e também entender
+                    que nem sempre levaremos os créditos pela vitória.<Negrito> A intendência</Negrito> me tornou uma pessoa melhor, mais responsável, 
+                    <Negrito> me ensinou o fardo de cada escolha</Negrito>, que cada escolha pode não só, me afetar, mas também outras pessoas.</p>   
+                    <p>O Exército <Negrito>MUDOU</Negrito> a minha vida.</p>
                 </ContainerText>
-                <ImgProfile src={LeviAspOf} width={400} height={400}></ImgProfile>
-
+                <ImgProfile src={Aspira} width={415} height={420}></ImgProfile>
             </SectionMain>
+            <SectionOracaoIntendente>
+                <ImgProfile src={LeviAspOf} width={400}></ImgProfile>
+                <CardOracao>
+                    <h2>ORAÇÃO DO SOLDADO INTENDENTE</h2>
+                    <p> "Senhor,
+                        Deus dos exércitos
+                        Agradeço-vos por conceder a este filho, soldado intendente
+                        A coragem para vencer distâncias e obstáculos
+                        A determinação para apoiar meus irmãos de armas
+                        A perícia e a garra para não sucumbir a emboscada
+                        A resistência ao sono e a fadiga em noites em claro
+                        A honestidade para gerir os bens a mim confiados
+                        Mas peço-vos ainda senhor
+                        Que o entusiasmo de hoje seja perene
+                        Preservando em minha alma
+                        A vibração de pertencer a um serviço honrado e eficaz
+                        A resignação por não receber as glórias da vitória
+                        E a fé inabalável na nobreza da minha missão"
+                    </p>
+                </CardOracao>
+            </SectionOracaoIntendente>
             <SectionContato>
                     <>
                         

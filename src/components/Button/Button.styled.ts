@@ -43,7 +43,12 @@ export const ButtonStyle = styled.div <PropsButton>`
 
 
     @media (max-width: 768px) {
-        
+        width: 35vw;
+        height: 8vh;
+
+        .button-text {
+            display: none;
+        }
     }
 
 `
@@ -51,4 +56,7 @@ export const ButtonStyle = styled.div <PropsButton>`
 export const ImgStyle = styled.img `
     width: 2vw;
     
+    @media (max-width: 768px) {
+        width: 10vw;
+    }
 `

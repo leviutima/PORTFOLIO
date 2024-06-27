@@ -20,14 +20,14 @@ const Button: React.FC<PropsButton> = ({ img ,bgColor, borderColor, textColor, c
                 <LinkStyle to={path}>
                     <ButtonStyle $bgColor={bgColor} $borderColor={borderColor} $textColor={textColor}>
                         <ImgStyle src={img}></ImgStyle>
-                        <span>{children}</span>
+                        <span className="button-text">{children}</span>
                     </ButtonStyle>
                 </LinkStyle>
             ) : (
                 <Ancora href={ancora}>
                 <ButtonStyle as="button" type={type} $bgColor={bgColor} $borderColor={borderColor} $textColor={textColor}> 
                     <ImgStyle src={img}></ImgStyle>
-                    <span>{children}</span>
+                    <span className="button-text">{children}</span>
                 </ButtonStyle>
                 </Ancora>
             )}

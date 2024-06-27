@@ -66,3 +66,21 @@ export const SectionContato = styled.section `
 export const SectionExercito = styled.section `
   
 `
+
+export const SectionOracaoIntendente = styled.section `
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+`
+
+export const CardOracao = styled.div `
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    width: 25vw;
+
+    & p {
+      color: var(--cinza);
+    }
+`

@@ -28,6 +28,10 @@ export const Title = styled.div `
     display: grid;
     gap: 24px;
     font-size: 42px;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
 `
 
 export const SpanStyle = styled.span`
@@ -39,6 +43,11 @@ export const SpanStyle = styled.span`
   animation:
     ${digitando} 4s steps(40, end),
     ${efeitoDigitacao} 0.75s step-end infinite;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      margin-right: 15%;
+    }
 `
 
 export const SectionContainerSecond = styled.section `
