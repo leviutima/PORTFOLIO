@@ -21,8 +21,8 @@ const Oceania = () => {
                     utilzando MAVEN com o glassfish.grizzly
                 </p>
                 <ContainerButton>
-                    <Button bgColor="#fff" img={github}>Repositório</Button>
-                    <Button bgColor="#fff" img={vercel}>Vercel</Button>
+                    <Button bgColor="#fff" ancora="https://github.com/leviutima/oceania" img={github}>Repositório</Button>
+                    <Button bgColor="#fff" ancora="https://oceania-tau.vercel.app/Home" img={vercel}>Vercel</Button>
                 </ContainerButton>
             </ContainerText>
         </SectionMain>
