@@ -16,7 +16,7 @@ const Sobre = () => {
                         <h2>QUEM É O LEVI ?</h2>
                         <p>Olá, meu chamo <Negrito>LEVI YUKI UTIMA</Negrito>, desenvolvedor Front-End.
                         Atualmente estou cursando <Negrito>Análise e Desenvolvimento de Sistemas</Negrito>  na Faculdade <Negrito>FIAP</Negrito>.</p>
-                        <p>Escolhi o Front-end por conta da vasta liberdade que eu tenho de criar o que eu quiser e como quiser, por mais que siga
+                        <p>Escolhi o <Negrito>Front-end</Negrito> por conta da vasta liberdade que eu tenho de criar o que eu quiser e como quiser, por mais que siga
                         um padrão de códigos, sempre há uma maneira diferente de se fazer a mesma coisa.
                         </p>
                     </div>

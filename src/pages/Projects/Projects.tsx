@@ -16,24 +16,24 @@ const Projetos = () => {
                 <SectionProjeto>
                     <h2>PROJETOS DE FACULDADE</h2>
                     <ProjetoCard>
-                        <Card img={oceania} titulo="OCEÂNIA"/>
-                        <Card img={SalesF} titulo="Sales Force"/>
+                        <Card link='*' img={oceania} titulo="OCEÂNIA"/>
+                        <Card link="*" img={SalesF} titulo="Sales Force"/>
                     </ProjetoCard>
                 </SectionProjeto>
                 <SectionProjeto>
                     <h2>PROJETOS AUTORAIS</h2>
                     <ProjetoCard>
-                        <Card img={musicList} titulo='My Music List'/>
-                        <Card img={linkTree} titulo="LinkTree"/>
+                        <Card link="*" img={musicList} titulo='My Music List'/>
+                        <Card link="*"img={linkTree} titulo="LinkTree"/>
                     </ProjetoCard>
                 </SectionProjeto>
                 <SectionProjeto>
-                    <h2>PROJETOS DE CURSOS</h2>
+                    <h2>PROJETOS REPLICADOS</h2>
                     <ProjetoCard>
-                        <Card img={cineTag} titulo='CineTag'/>
-                        <Card img={pomodoro} titulo="Pomodoro"/>
-                        <Card img={spaceApp} titulo="Space-App"/> 
-                        <Card img={movelt} titulo="MOVELT"/>
+                        <Card link="*" img={cineTag} titulo='CineTag'/>
+                        <Card link="*" img={pomodoro} titulo="Pomodoro"/>
+                        <Card link="*"img={spaceApp} titulo="Space-App"/> 
+                        <Card link="/MOVELT" img={movelt} titulo="MOVELT"/>
                     </ProjetoCard>
                 </SectionProjeto>
             </ProjetoSection>

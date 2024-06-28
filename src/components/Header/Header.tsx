@@ -10,12 +10,13 @@ const Header = () => {
                         <ImgStyle src={imgHeader}></ImgStyle>
                     </LinkStyle>
                     <MenuList>
-                        <LinkStyle to='/Projetos'>
-                            <li>PROJETOS</li> 
-                        </LinkStyle>
                         <LinkStyle to='/Sobre'>
                             <li>SOBRE</li>
                         </LinkStyle>
+                        <LinkStyle to='/Projetos'>
+                            <li>PROJETOS</li> 
+                        </LinkStyle>
+                        
                     </MenuList>
                 </HeaderNavigation>
             </HeaderStyle>

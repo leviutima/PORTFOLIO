@@ -1,4 +1,9 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
+
+export const LinkStyleCard = styled(Link) `
+    text-decoration: none;
+`
 
 export const CardContainer = styled.div `
     display: flex;

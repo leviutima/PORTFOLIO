@@ -1,21 +1,24 @@
-import { CardContainer, CardProjetos, ImgCard, TextSection} from "./Card.styled";
+import { CardContainer, CardProjetos, ImgCard, LinkStyleCard, TextSection} from "./Card.styled";
 
 interface CardProp {
     img: string;
     titulo: string;
+    link: string;
 }
 
-const Card = ({ img, titulo }: CardProp) => {
+const Card: React.FC<CardProp>  = ({ img, titulo, link }: CardProp) => {
     return (
         <>
-        <CardContainer>
-            <CardProjetos>
-                <ImgCard src={img} />
-            </CardProjetos>
-            <TextSection>
-                    <h4>{titulo}</h4>
-            </TextSection>
-        </CardContainer>
+        <LinkStyleCard to={link}>
+            <CardContainer>
+                <CardProjetos>
+                    <ImgCard src={img} />
+                </CardProjetos>
+                <TextSection>
+                        <h4>{titulo}</h4>
+                </TextSection>
+            </CardContainer>
+        </LinkStyleCard>
         </>
     );
 };
