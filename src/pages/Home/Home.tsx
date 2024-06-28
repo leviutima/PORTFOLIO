@@ -25,7 +25,7 @@ const Home = () => {
                 <h3>Últimos projetos realizados</h3>
                 <ContainerProjetos>
                     <Card link="/MOVELT"img={movelt} titulo='MOVELT'/>
-                    <Card link="*"img={oceania} titulo='Oceânia'/>
+                    <Card link="/Oceânia"img={oceania} titulo='Oceânia'/>
                     <Card link="*"img={salesF} titulo='Sales Force'/>
                     <Card link="*"img={myMusicList} titulo='My List Music'/>
                 </ContainerProjetos>

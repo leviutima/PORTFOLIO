@@ -16,7 +16,7 @@ const Projetos = () => {
                 <SectionProjeto>
                     <h2>PROJETOS DE FACULDADE</h2>
                     <ProjetoCard>
-                        <Card link='*' img={oceania} titulo="OCEÂNIA"/>
+                        <Card link='/Oceânia' img={oceania} titulo="OCEÂNIA"/>
                         <Card link="*" img={SalesF} titulo="Sales Force"/>
                     </ProjetoCard>
                 </SectionProjeto>

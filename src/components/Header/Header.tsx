@@ -1,5 +1,6 @@
 import { HeaderNavigation, HeaderStyle, ImgStyle, LinkStyle, MenuList } from "./Header.styled"
 import imgHeader from '../../assets/leviLogo.png'
+import MusicPlayer from "../MusicPlayer/MusicPlayer"
 
 const Header = () => {
     return(
@@ -10,6 +11,7 @@ const Header = () => {
                         <ImgStyle src={imgHeader}></ImgStyle>
                     </LinkStyle>
                     <MenuList>
+                        <MusicPlayer></MusicPlayer>
                         <LinkStyle to='/Sobre'>
                             <li>SOBRE</li>
                         </LinkStyle>

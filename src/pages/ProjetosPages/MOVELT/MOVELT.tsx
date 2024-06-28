@@ -6,7 +6,7 @@ import github from '../../../assets/githubLogo.png'
 import vercel from '../../../assets/Vercel_favicon.svg'
 
 
-const MOVELT = () => {
+const Movelt = () => {
     return(
         <>
             <SectionMain>
@@ -29,4 +29,4 @@ const MOVELT = () => {
     )
 }
 
-export default MOVELT
+export default Movelt

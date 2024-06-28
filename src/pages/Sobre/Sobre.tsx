@@ -4,6 +4,9 @@ import linkedin from '../../assets/linkedinLogo.png'
 import Button from '../../components/Button/Button'
 import Aspira from '../../assets/AspiraYuki.jpeg'
 import LeviAspOf from '../../assets/leviOf.jpeg'
+import { ContainerButton } from '../ProjetosPages/MOVELT/movelt.styled'
+import curriculo from '../../assets/curriculo/curriculoLevi (6).pdf.png'
+import pdf from '../../assets/pdfIcon.png'
 
 const Sobre = () => {
     return(
@@ -20,7 +23,10 @@ const Sobre = () => {
                         um padrão de códigos, sempre há uma maneira diferente de se fazer a mesma coisa.
                         </p>
                     </div>
-                    <Button bgColor='#fff' img={linkedin} ancora='https://www.linkedin.com/in/levi-yuki-utima-7b3187289/'>Meu LinkedIn</Button>
+                    <ContainerButton>
+                        <Button bgColor='#fff' img={linkedin} ancora='https://www.linkedin.com/in/levi-yuki-utima-7b3187289/'>Meu LinkedIn</Button>
+                        <Button bgColor='#fff' download='Curriculo Levi' ancora={curriculo} img={pdf}>Baixar CSV</Button>
+                    </ContainerButton>
                 </ContainerText>
             </SectionMain>
             <SectionMain>

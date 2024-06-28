@@ -6,7 +6,8 @@ import Header from '../components/Header/Header'
 import Projetos from '../pages/Projects/Projects'
 import Footer from '../components/Footer/Footer'
 import Sobre from '../pages/Sobre/Sobre'
-import MOVELT from '../pages/ProjetosPages/MOVELT/MOVELT'
+import Movelt from '../pages/ProjetosPages/MOVELT/MOVELT'
+import Oceania from '../pages/ProjetosPages/Oceania/Oceania'
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/Projetos' element={<Projetos/>}/>
           <Route path='/Sobre' element={<Sobre/>}/>
-          <Route path='/MOVELT' element={<MOVELT/>}/>
+          <Route path='/MOVELT' element={<Movelt/>}/>
+          <Route path='/Oceânia' element={<Oceania/>}/>
+          <Route path='*'/>
         </Routes>
       </BrowserRouter>
       <Footer/>
