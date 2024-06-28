@@ -11,7 +11,7 @@ interface PropsButton {
 export const Ancora = styled.a`
     text-decoration: none;
     & :hover {
-        background-color: #6962AD;
+        background-color: var(--cinza);
     }
 `
 
