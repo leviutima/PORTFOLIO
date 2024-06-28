@@ -18,7 +18,7 @@ export const Ancora = styled.a`
 export const LinkStyle = styled(Link)`
     text-decoration: none;
     & :hover {
-        background-color: #6962AD;
+        background-color: var(--cinza);
     }
 `
 
