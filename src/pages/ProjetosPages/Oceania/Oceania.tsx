@@ -2,6 +2,8 @@ import { ContainerText, SectionMain } from "../../Sobre/Sobre.styled"
 import { ContainerButton, ImgProject } from "../MOVELT/movelt.styled"
 import ocenia from '../../../assets/projetos/projeto 2.png'
 import Button from "../../../components/Button/Button"
+import github from '../../../assets/githubLogo.png'
+import vercel from '../../../assets/Vercel_favicon.svg'
 
 const Oceania = () => {
     return(
@@ -19,8 +21,8 @@ const Oceania = () => {
                     utilzando MAVEN com o glassfish.grizzly
                 </p>
                 <ContainerButton>
-                    <Button></Button>
-                    <Button></Button>
+                    <Button bgColor="#fff" img={github}>Repositório</Button>
+                    <Button bgColor="#fff" img={vercel}>Vercel</Button>
                 </ContainerButton>
             </ContainerText>
         </SectionMain>
