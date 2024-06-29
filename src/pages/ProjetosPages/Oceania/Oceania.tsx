@@ -9,7 +9,7 @@ const Oceania = () => {
     return(
         <>
         <SectionMain>
-            <ImgProject src={ocenia} width={700}></ImgProject>
+            <ImgProject src={ocenia} width={700} ></ImgProject>
             <ContainerText>
                 <h2>OCEÂNIA</h2>
                 <p>Projeto Oceânia se baseia em um e-commerce de produtos feitos com
@@ -22,7 +22,7 @@ const Oceania = () => {
                 </p>
                 <ContainerButton>
                     <Button bgColor="#fff" ancora="https://github.com/leviutima/oceania" img={github}>Repositório</Button>
-                    <Button bgColor="#fff" ancora="https://oceania-tau.vercel.app/Home" img={vercel}>Vercel</Button>
+                    <Button bgColor="#fff" ancora="https://oceania-tau.vercel.app/Home" img={vercel}>VERCEL</Button>
                 </ContainerButton>
             </ContainerText>
         </SectionMain>

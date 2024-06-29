@@ -8,6 +8,8 @@ import Footer from '../components/Footer/Footer'
 import Sobre from '../pages/Sobre/Sobre'
 import Movelt from '../pages/ProjetosPages/MOVELT/MOVELT'
 import Oceania from '../pages/ProjetosPages/Oceania/Oceania'
+import SalesF from '../pages/ProjetosPages/SalesF/SalesF'
+import MyMusicList from '../pages/ProjetosPages/MyMusicList/MyListMusic'
 
 function App() {
   return (
@@ -16,11 +18,13 @@ function App() {
       <BrowserRouter>
       <Header/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/Projetos' element={<Projetos/>}/>
-          <Route path='/Sobre' element={<Sobre/>}/>
-          <Route path='/MOVELT' element={<Movelt/>}/>
-          <Route path='/Oceânia' element={<Oceania/>}/>
+          <Route path='/' element={<Home/>} />
+          <Route path='/Projetos' element={<Projetos/>} />
+          <Route path='/Sobre' element={<Sobre/>} />
+          <Route path='/MOVELT' element={<Movelt/>} />
+          <Route path='/Oceânia' element={<Oceania/>} />
+          <Route path='/SalesF' element={<SalesF/>} />
+          <Route path='/MyMusicList' element={<MyMusicList/>} />
           <Route path='*'/>
         </Routes>
       </BrowserRouter>

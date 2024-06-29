@@ -26,8 +26,8 @@ const Home = () => {
                 <ContainerProjetos>
                     <Card link="/MOVELT"img={movelt} titulo='MOVELT'/>
                     <Card link="/Oceânia"img={oceania} titulo='Oceânia'/>
-                    <Card link="*"img={salesF} titulo='Sales Force'/>
-                    <Card link="*"img={myMusicList} titulo='My List Music'/>
+                    <Card link="/SalesF"img={salesF} titulo='Sales Force'/>
+                    <Card link="/MyMusicList"img={myMusicList} titulo='My List Music'/>
                 </ContainerProjetos>
             </SectionContainerSecond>
             <SectionContainerThird>
