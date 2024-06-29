@@ -5,7 +5,7 @@ import Button from '../../components/Button/Button'
 import Aspira from '../../assets/AspiraYuki.jpeg'
 import LeviAspOf from '../../assets/leviOf.jpeg'
 import { ContainerButton } from '../ProjetosPages/MOVELT/movelt.styled'
-import curriculo from '../../assets/curriculo/CurriculoLevi.png'
+import curriculo from '../../assets/curriculo/CurriculoLevi.pdf'
 import pdf from '../../assets/pdfIcon.png'
 
 const Sobre = () => {
