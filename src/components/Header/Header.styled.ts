@@ -63,14 +63,18 @@ export const HamburgerIcon = styled(FaBars)`
 `;
 
 export const HamburgerLinks = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 60px;
+    top: 70px;
     right: 10px;
-    background-color: white;
+    background-color: black;
     border: 1px solid #ddd;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    color: var(--preto);
+    color: var(--branco);
 
     ${LinkStyle} {
         display: block;

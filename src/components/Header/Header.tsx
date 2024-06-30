@@ -5,6 +5,7 @@ import MusicPlayer from "../MusicPlayer/MusicPlayer";
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
     const menuRef = useRef<HTMLDivElement>(null);
 
     const toggleMenu = () => {
@@ -17,10 +18,16 @@ const Header: React.FC = () => {
         }
     };
 
+    const handleResize = () => {
+        setIsMobile(window.innerWidth <= 768);
+    };
+
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
+        window.addEventListener('resize', handleResize);
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
 
@@ -34,7 +41,7 @@ const Header: React.FC = () => {
                     <HamburgerIcon />
                 </HamburgerMenu>
                 <MenuList>
-                    <MusicPlayer />
+                    {!isMobile && <MusicPlayer />}
                     <LinkStyle to='/Sobre'>
                         <li>SOBRE</li>
                     </LinkStyle>
@@ -44,6 +51,7 @@ const Header: React.FC = () => {
                 </MenuList>
                 {isOpen && (
                     <HamburgerLinks ref={menuRef}>
+                        {isMobile && <MusicPlayer />}
                         <LinkStyle to='/Sobre'>
                             <li>SOBRE</li>
                         </LinkStyle>
