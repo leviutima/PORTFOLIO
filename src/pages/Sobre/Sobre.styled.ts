@@ -6,7 +6,6 @@ export const MainContainer = styled.main `
     gap: 150px;
 `
 
-// Define a animação de rotação
 const rotateBorder = keyframes`
   0% {
     border-color: #fff #fff transparent transparent;
@@ -28,12 +27,27 @@ const rotateBorder = keyframes`
 export const SectionMain = styled.section`
   display: flex;
   justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+  }
 `;
 
 export const ImgProfile = styled.img`
   border-radius: 10px;
   border: 2px solid #fff; 
   animation: ${rotateBorder} 5s linear infinite; 
+  width: 25vw;
+
+  @media (max-width: 768px) {
+    width: 80vw;
+    height: 50vh;
+
+  }
 `;
 
 export const ContainerText = styled.div`
@@ -50,6 +64,22 @@ export const ContainerText = styled.div`
 
   & p {
     color: var(--cinza);
+  }
+
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+
+    & h2 {
+      font-size: 32px;
+    }
+
+    & p {
+      font-size: 18px;
+    }
   }
 
 
@@ -71,6 +101,13 @@ export const SectionOracaoIntendente = styled.section `
     display: flex;
     justify-content: center;
     gap: 150px;
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+    }
 `
 
 export const CardOracao = styled.div `
@@ -82,5 +119,9 @@ export const CardOracao = styled.div `
 
     & p {
       color: var(--cinza);
+    }
+
+    @media (max-width: 768px) {
+      width: 80vw;
     }
 `

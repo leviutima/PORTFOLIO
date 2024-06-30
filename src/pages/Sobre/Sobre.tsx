@@ -43,10 +43,10 @@ const Sobre = () => {
                     <Negrito> me ensinou o fardo de cada escolha</Negrito>, que cada escolha pode não só, me afetar, mas também outras pessoas.</p>   
                     <p>O Exército <Negrito>MUDOU</Negrito> a minha vida.</p>
                 </ContainerText>
-                <ImgProfile src={Aspira} width={415} height={420}></ImgProfile>
+                <ImgProfile src={Aspira}></ImgProfile>
             </SectionMain>
             <SectionOracaoIntendente>
-                <ImgProfile src={LeviAspOf} width={400}></ImgProfile>
+                <ImgProfile src={LeviAspOf} ></ImgProfile>
                 <CardOracao>
                     <h2>ORAÇÃO DO SOLDADO INTENDENTE</h2>
                     <p> "Senhor,
