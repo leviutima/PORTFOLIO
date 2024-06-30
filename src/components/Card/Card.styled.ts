@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 export const LinkStyleCard = styled(Link) `
     text-decoration: none;
+
+
 `
 
 export const CardContainer = styled.div `
@@ -10,6 +12,8 @@ export const CardContainer = styled.div `
     flex-direction: column;
     align-items: center;
     gap: 8px;
+
+    
 `
 
 export const CardProjetos = styled.div`
@@ -18,6 +22,10 @@ export const CardProjetos = styled.div`
     height: 15vh;
     overflow: hidden;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+        width: 50vw;
+    }
 `;
 
 export const ImgCard = styled.img`
@@ -29,6 +37,8 @@ export const ImgCard = styled.img`
     &:hover {
         transform: scale(1.1);
     }
+
+    
 `;
 
 export const TextSection = styled.div `
