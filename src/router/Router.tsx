@@ -10,6 +10,7 @@ import Movelt from '../pages/ProjetosPages/MOVELT/MOVELT'
 import Oceania from '../pages/ProjetosPages/Oceania/Oceania'
 import SalesF from '../pages/ProjetosPages/SalesF/SalesF'
 import MyMusicList from '../pages/ProjetosPages/MyMusicList/MyListMusic'
+import CortesEstilo from '../pages/ProjetosPages/Cortes & Estilo/C&E'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/Oceânia' element={<Oceania/>} />
           <Route path='/SalesF' element={<SalesF/>} />
           <Route path='/MyMusicList' element={<MyMusicList/>} />
+          <Route path='/CorteEstilo' element={<CortesEstilo/>}/>
           <Route path='*'/>
         </Routes>
       </BrowserRouter>
