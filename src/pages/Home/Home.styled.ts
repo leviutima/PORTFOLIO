@@ -158,7 +158,7 @@ export const StyleHTML = styled(FaHtml5) `
 
 
   :hover {
-        color: #6962AD;
+    color: var(--cinza);
 
     }
 `
@@ -169,8 +169,7 @@ export const StyleCSS = styled(FaCss3) `
 
 
   :hover {
-        color: #6962AD;
-
+      color: var(--cinza);
     }
 ` 
 
@@ -180,7 +179,7 @@ export const StyleJS = styled(IoLogoJavascript) `
 
 
   :hover {
-        color: #6962AD;
+        color: var(--cinza);
     }
 `
 
@@ -190,7 +189,6 @@ export const StyleReact = styled(FaReact) `
 
 
   :hover {
-        color: #6962AD;
-
+      color: var(--cinza);
     }
 `

@@ -52,7 +52,6 @@ const Home = () => {
                             <StyleReact />
                             <span>REACT</span>
                         </ContainerImgTechs>
-                        
                     </TechsCointainer>
                 </SectionContainerThird>
         </MainContainer>
